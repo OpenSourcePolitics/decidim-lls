@@ -22,7 +22,7 @@ gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-te
 # gem "decidim-direct_verifications", git: "https://github.com/Platoniq/decidim-verifications-direct_verifications"
 # gem "decidim-homepage_interactive_map", git: "https://github.com/OpenSourcePolitics/decidim-module-homepage_interactive_map.git"
 # gem "decidim-initiatives_no_signature_allowed", git: "https://github.com/OpenSourcePolitics/decidim-module-initiatives_nosignature_allowed.git"
-# gem "decidim-navigation_maps", git: "https://github.com/Platoniq/decidim-module-navigation_maps"
+gem "decidim-navigation_maps", "~> 1.1.0"
 
 gem "bootsnap", "~> 1.3"
 

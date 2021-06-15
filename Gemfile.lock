@@ -322,6 +322,9 @@ GEM
       jquery-tmpl-rails (~> 1.1)
       kaminari (~> 1.2, >= 1.2.1)
       searchlight (~> 4.1)
+    decidim-navigation_maps (1.1.1)
+      decidim-admin (>= 0.22, < 0.24)
+      decidim-core (>= 0.22, < 0.24)
     decidim-pages (0.23.6)
       decidim-core (= 0.23.6)
     decidim-participatory_processes (0.23.6)
@@ -881,6 +884,7 @@ DEPENDENCIES
   decidim-decidim_awesome (~> 0.6.0)
   decidim-dev (= 0.23.6)
   decidim-navbar_links!
+  decidim-navigation_maps (~> 1.1.0)
   decidim-term_customizer!
   dotenv-rails
   faker (~> 1.8)
@@ -908,4 +912,4 @@ RUBY VERSION
    ruby 2.6.6p146
 
 BUNDLED WITH
-   2.2.11
+   2.2.18
